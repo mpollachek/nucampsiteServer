@@ -18,7 +18,7 @@ promotionRouter.route('/')
     res.end('PUT operation not supported on /promotions');
 })
 .delete((req, res) => {
-    res.end('Deleting all campsites');
+    res.end('Deleting all promotions');
 });
 
 promotionRouter.route('/:promotionId')
